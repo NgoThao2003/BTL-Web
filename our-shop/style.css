@@ -142,6 +142,7 @@
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     
+    
 }
 .shop-girl-coca{
     border-style:none;
@@ -377,7 +378,12 @@ Hai */
         width: 123%;
         margin: 0 auto;
     }
-   
+@media (min-width: 1024px) {
+    .contener{
+        width: 100%;
+        text-align: center;
+    }
+}
    
 }
 
