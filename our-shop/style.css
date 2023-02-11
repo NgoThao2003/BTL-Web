@@ -141,15 +141,22 @@
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-    
+    justify-content: space-around;
+
     
 }
+/* .shop-girl{
+    text-align: center;
+
+} */
 .shop-girl-coca{
     border-style:none;
     box-shadow: 1px 1px 8px 2px rgb(231, 230, 230);
-    width: 80%;
+    /* width: 80%; */
     margin-top: 90px;
-    margin-left: 45px;
+    /* margin-left: 45px; */
+    text-align: center;
+
 }
 .image{
     width: 99%;
@@ -210,6 +217,7 @@
     display: flex;
     font-size: 12px;
     width: 170px;
+    margin-left: 7%;
 }
 
 .shop-girl-coca__11{
@@ -225,6 +233,7 @@
     letter-spacing: 0.9px;
     opacity: 0;
     transition: .2s ease;
+    margin-left: -35%;
 }
 span:hover + .shop25 {
     display: block;
